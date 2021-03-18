@@ -1,0 +1,186 @@
+body{
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	font-size: 16px;
+}
+.menu{
+	position: fixed;
+	height: 100%;
+	width: 150px;
+	top: 0;
+	left: 0;	 
+	color: white;
+	background-color:#45015d;
+	border-radius: 15px;
+	font-weight: bold;
+	padding: 10px 30px;
+}
+.menu a{
+	display: block;
+	color: inherit;
+	text-decoration: solid;
+	width: 100%;
+	padding: 7px 14px;
+	box-sizing: border-box;
+}
+.menu a:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+h1{
+	font-weight: 400;
+	font-size: 60px;
+}
+h2{
+	font-weight: 350;
+	font-size: 55px;
+	color: #38014c;
+	margin: 10px 0;
+}
+.main{
+	margin-top: 85px;
+	margin-left: 350px;
+}
+hr{
+	margin:20px 0;
+	width: 95%;
+	border: 5px #38014c solid;
+	border-radius: 7px;
+}
+.images img{
+	width: 45%;
+	margin: 5px;
+	border-radius: 11px;
+	opacity: 0.7;
+}
+.images img:hover{
+	opacity: 1;
+}
+.member{
+	width: 30%;
+	padding: 8px 8px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.member img{
+	width: 100%;
+	filter: grayscale(30%);
+	border-radius: 10px;
+}
+.description{
+	padding: 5px 15px 5px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+.position{
+	color: grey;
+}
+.tarif{
+	display: inline-block;
+	width: 48%;
+	padding: 0 8px;
+	vertical-align: middle;
+	text-align: center; 
+	box-sizing: border-box;
+}
+.tarif .tarif-name{
+	font-size: 24px;
+	padding: 30px 0;
+	color: white;
+	background-color: #45015d;
+}
+.tarif ul{
+	padding: 0;
+	margin: 0;
+	border-radius: 14px; 
+	background-color: #f2f2f2;
+	color: black;
+}
+.pro .tarif-name:first-child{
+	background-color: #ff4d4d;
+}
+.tarif li{
+	list-style-type: none;
+	border-bottom: 1px solid grey;
+	padding: 15px 0;
+	border-radius: 10px;
+}
+.tarif .price{
+	font-size: 30px;
+	font-weight: 400; 
+}
+.b-basic{
+	border-radius: 15px;
+	padding: 8px 12px;
+	border: 1px solid white;
+	color: #45015d;
+	background-color: white; 
+}
+.b-basic:hover{
+	cursor: pointer;
+	border-radius: 15px;
+	padding: 8px 12px;
+	border: 1px solid #4dffff;
+	color: black;
+	background-color: #4dffff;
+}
+.b-pro{
+	border-radius: 15px;
+	padding: 8px 12px;
+	border:1px solid #ff4d4d;
+	color: white;
+	background-color: #ff4d4d;
+}
+.b-pro:hover{
+	cursor: pointer;
+	border-radius: 15px;
+	padding: 8px 12px;
+	border: 1px solid #4dffff;
+	color: black;
+	background-color: #4dffff;
+}
+.period{
+	opacity: 0.7;
+}
+label{
+	display: block;
+	text-align: left;
+}
+input{
+	width: 100%;
+	margin: 10px 0;
+	padding: 8px;
+	display: block;
+	border: 1px solid #101010;
+	box-sizing: border-box;
+	font-size: 16px;
+	outline: none;
+}
+.contact button{
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 8px;
+	display: block;
+	border:none;
+	font-family: inherit;
+	outline: none;
+	color: white;
+	background-color: #38014c;
+}
+.contact button:hover{
+	cursor: pointer;
+	border: 1px solid #4dffff;
+	color: black;
+	background-color: #4dffff;
+}
+#footer{
+	padding: 35px 55px; 
+	text-align: right;
+	background-color: #f1f1f1;
+}
+#designers, #packages, #services, #contact, #footer{
+	margin-top: 70px;
+}
